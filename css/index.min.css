@@ -735,6 +735,15 @@ button {
   position: relative;
   z-index: 4;
 }
+
+.tweet-container{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 4;
+}
+
 .about__image {
   flex-shrink: 0;
   pointer-events: none;
@@ -899,7 +908,6 @@ button {
 }
 .how__images img:first-child {
   animation: foxHow 2s ease-in-out infinite;
-  aspect-ratio: 1374/1020;
   left: 0;
   object-fit: cover;
   top: 0;
@@ -907,6 +915,7 @@ button {
   width: 100%;
   will-change: transform;
   z-index: 2;
+  scale: 0.8;
 }
 .how__images img:nth-child(2) {
   aspect-ratio: 1194/519;
