@@ -198,12 +198,11 @@ button {
   z-index: 2;
 }
 .header__logo img {
-  aspect-ratio: 335/162;
-  left: 0;
+  left: 20%;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 100%;
+  width: 50%;
   z-index: 1;
 }
 .header__actions,
