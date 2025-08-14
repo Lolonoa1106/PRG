@@ -570,7 +570,7 @@ button {
 }
 .hero__images-fox img {
   transition: opacity 0.1s ease 0s;
-  width: 100%;
+  width: 80%;
 }
 .hero__images-fox img:nth-child(2) {
   animation: cat-anim1 3s linear infinite;
